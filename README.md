@@ -4,26 +4,31 @@
   </span>
 </h1> 
 
-Perfect Resume is a MERN stack web application that helps users create, customize, and download professional resumes effortlessly. It features real-time editing, LinkedIn data scraping, multiple template options, and one-click PDF export. The platform offers secure authentication and storage, making resume building intuitive and powerful.
+>  A resume builder I created to make job hunting a little less painful and a lot more fun.  
+> **By Sharmila Rapeti**
+
+Perfect Resume is a MERN stack web application I built to help anyone (including myself!) create, customize, and download professional resumes with ease.  
+It’s not just another boring form — it has real-time editing, LinkedIn data scraping, beautiful templates, and one-click PDF export.  
+Whether you’re a fresh graduate or a seasoned professional, this tool makes resume building **simple, fast, and actually enjoyable**.
 
 ---
 
 ##  Live Demo
-[https://perfect-resume-sable.vercel.app](https://perfect-resume-sable.vercel.app)
+[perfect-resume-sable.vercel.app](https://perfect-resume-sable.vercel.app) — go ahead and try building your own!
 
 ---
 
 ##  Features
-- Real-time resume editor with instant preview  
-- LinkedIn scraping to auto-fill your resume  
-- Customizable templates and layouts  
-- Download resume as high-quality PDF  
-- JWT-based authentication with cookies and localStorage  
-- Dashboard for managing multiple resumes  
+-  **Real-time resume editor** with instant preview  
+-  **LinkedIn scraping** to auto-fill your resume  
+-  **Customizable templates** and layouts  
+-  **Download as high-quality PDF** in one click  
+-  **Secure JWT authentication** with cookies and localStorage  
+-  **Dashboard** to manage multiple resumes like a pro  
 
 ---
 
-##  Pages Description
+##  Pages Overview
 
 ### 1. **Landing Page**
 <p align="center">
@@ -31,7 +36,7 @@ Perfect Resume is a MERN stack web application that helps users create, customiz
 </p>
 
 ### 2. **Authentication (Login / Register)**
-- User login and sign-up with form validation  
+- Secure login & sign-up with form validation  
 - Tokens stored in cookies and localStorage  
 <p align="center">
   <img src="https://raw.githubusercontent.com/sharmila1320/Resume_Maker/main/Perfect-Resume-main/images/signup.png" alt="signup" style="width: 100%; max-width: 800px;" />
@@ -42,15 +47,15 @@ Perfect Resume is a MERN stack web application that helps users create, customiz
 
 ### 3. **Dashboard**
 - Displays all resumes created by the user  
-- Options to edit, delete, duplicate, or download resumes  
+- Edit, delete, duplicate, or download resumes in seconds  
 <p align="center">
   <img src="https://raw.githubusercontent.com/sharmila1320/Resume_Maker/main/Perfect-Resume-main/images/dashboard.png" alt="dashboard" style="width: 100%; max-width: 800px;" />
 </p>
 
 ### 4. **Resume Editor**
 - Modular form sections: Personal Info, Education, Work Experience, Skills, Projects, etc.  
-- Real-time preview of the resume  
-- Auto-fill resume data from LinkedIn profile  
+- Real-time preview while editing  
+- **Auto-fill** data directly from your LinkedIn profile  
 <p align="center">
   <img src="https://raw.githubusercontent.com/sharmila1320/Resume_Maker/main/Perfect-Resume-main/images/linkedin.png" alt="linkedin" style="width: 100%; max-width: 800px;" />
 </p>
@@ -59,15 +64,15 @@ Perfect Resume is a MERN stack web application that helps users create, customiz
 </p>
 
 ### 5. **Template Selector**
-- Multiple professionally designed templates  
-- Instantly applies selected template to preview  
+- Professionally designed templates  
+- Instant template switching for quick previews  
 <p align="center">
   <img src="https://raw.githubusercontent.com/sharmila1320/Resume_Maker/main/Perfect-Resume-main/images/template.png" alt="template" style="width: 100%; max-width: 800px;" />
 </p>
 
 ### 6. **Preview & Download**
-- Final preview of the selected resume template  
-- Option to download as PDF  
+- Final preview before you download  
+- Exports to PDF with perfect formatting  
 <p align="center">
   <img src="https://raw.githubusercontent.com/sharmila1320/Resume_Maker/main/Perfect-Resume-main/images/download.png" alt="download" style="width: 100%; max-width: 800px;" />
 </p>
@@ -76,25 +81,7 @@ Perfect Resume is a MERN stack web application that helps users create, customiz
 
 ##  Installation Instructions
 
-### 1. Clone the repository
+1️⃣ **Clone the repository**  
 ```bash
 git clone https://github.com/sharmila1320/Resume_Maker.git
 cd Resume_Maker
-
-### 2. Install dependencies
-# Client setup
-cd client
-npm install
-
-# Server setup
-cd server
-npm install
-
-### 3. Run the application
-# Start server
-cd server
-npm run dev
-
-# In a new terminal, start client
-cd client
-npm start
