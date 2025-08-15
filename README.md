@@ -27,24 +27,24 @@ Perfect Resume is a MERN stack web application that helps users create, customiz
 
 ### 1. **Landing Page**
 <p align="center">
-  <img src="https://raw.githubusercontent.com/sharmila1320/Resume_Maker/main/resume_maker/images/landing.png" alt="landing" style="width: 100%; max-width: 800px;" />
+  <img src="https://raw.githubusercontent.com/sharmila1320/Resume_Maker/main/Perfect-Resume-main/images/landing.png" alt="landing" style="width: 100%; max-width: 800px;" />
 </p>
 
 ### 2. **Authentication (Login / Register)**
 - User login and sign-up with form validation  
 - Tokens stored in cookies and localStorage  
 <p align="center">
-  <img src="https://raw.githubusercontent.com/sharmila1320/Resume_Maker/main/resume_maker/images/signup.png" alt="signup" style="width: 100%; max-width: 800px;" />
+  <img src="https://raw.githubusercontent.com/sharmila1320/Resume_Maker/main/Perfect-Resume-main/images/signup.png" alt="signup" style="width: 100%; max-width: 800px;" />
 </p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/sharmila1320/Resume_Maker/main/resume_maker/images/login.png" alt="login" style="width: 100%; max-width: 800px;" />
+  <img src="https://raw.githubusercontent.com/sharmila1320/Resume_Maker/main/Perfect-Resume-main/images/login.png" alt="login" style="width: 100%; max-width: 800px;" />
 </p>
 
 ### 3. **Dashboard**
 - Displays all resumes created by the user  
 - Options to edit, delete, duplicate, or download resumes  
 <p align="center">
-  <img src="https://raw.githubusercontent.com/sharmila1320/Resume_Maker/main/resume_maker/images/dashboard.png" alt="dashboard" style="width: 100%; max-width: 800px;" />
+  <img src="https://raw.githubusercontent.com/sharmila1320/Resume_Maker/main/Perfect-Resume-main/images/dashboard.png" alt="dashboard" style="width: 100%; max-width: 800px;" />
 </p>
 
 ### 4. **Resume Editor**
@@ -52,24 +52,24 @@ Perfect Resume is a MERN stack web application that helps users create, customiz
 - Real-time preview of the resume  
 - Auto-fill resume data from LinkedIn profile  
 <p align="center">
-  <img src="https://raw.githubusercontent.com/sharmila1320/Resume_Maker/main/resume_maker/images/linkedin.png" alt="linkedin" style="width: 100%; max-width: 800px;" />
+  <img src="https://raw.githubusercontent.com/sharmila1320/Resume_Maker/main/Perfect-Resume-main/images/linkedin.png" alt="linkedin" style="width: 100%; max-width: 800px;" />
 </p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/sharmila1320/Resume_Maker/main/resume_maker/images/creation.png" alt="creation" style="width: 100%; max-width: 800px;" />
+  <img src="https://raw.githubusercontent.com/sharmila1320/Resume_Maker/main/Perfect-Resume-main/images/creation.png" alt="creation" style="width: 100%; max-width: 800px;" />
 </p>
 
 ### 5. **Template Selector**
 - Multiple professionally designed templates  
 - Instantly applies selected template to preview  
 <p align="center">
-  <img src="https://raw.githubusercontent.com/sharmila1320/Resume_Maker/main/resume_maker/images/template.png" alt="template" style="width: 100%; max-width: 800px;" />
+  <img src="https://raw.githubusercontent.com/sharmila1320/Resume_Maker/main/Perfect-Resume-main/images/template.png" alt="template" style="width: 100%; max-width: 800px;" />
 </p>
 
 ### 6. **Preview & Download**
 - Final preview of the selected resume template  
 - Option to download as PDF  
 <p align="center">
-  <img src="https://raw.githubusercontent.com/sharmila1320/Resume_Maker/main/resume_maker/images/download.png" alt="download" style="width: 100%; max-width: 800px;" />
+  <img src="https://raw.githubusercontent.com/sharmila1320/Resume_Maker/main/Perfect-Resume-main/images/download.png" alt="download" style="width: 100%; max-width: 800px;" />
 </p>
 
 ---
@@ -81,7 +81,7 @@ Perfect Resume is a MERN stack web application that helps users create, customiz
 git clone https://github.com/sharmila1320/Resume_Maker.git
 cd Resume_Maker
 
-## Install Dependencies
+### 2. Install dependencies
 # Client setup
 cd client
 npm install
@@ -90,7 +90,7 @@ npm install
 cd server
 npm install
 
-## Run the application
+### 3. Run the application
 # Start server
 cd server
 npm run dev
